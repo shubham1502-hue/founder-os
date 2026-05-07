@@ -24,9 +24,9 @@ One sentence: what changed this week and what needs founder attention?
 
 ## Decisions Needed
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Team Asks
 
