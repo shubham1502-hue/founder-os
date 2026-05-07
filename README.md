@@ -48,6 +48,7 @@ You can leave the roadmap, contribution notes, and overall repo architecture alo
 | Module | What It Does | Repo |
 |---|---|---|
 | Weekly Operating Review | Turns metrics into priorities, risks, team asks, and investor-safe updates. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
+| AI Workflow ROI | Ranks workflows by automation ROI, risk, payback period, and hire-vs-automate decisions. | [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) |
 | Board Pack / Investor Updates | Converts startup KPIs into board-ready narratives and decision lists. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
 | AI GTM Command Center | Scores target accounts and drafts human-approved founder outreach. | [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) |
 | Sales Call Intelligence | Turns founder-led sales call notes into objections, deal risks, rescue actions, and narrative experiments. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) |
@@ -79,9 +80,12 @@ You can leave the roadmap, contribution notes, and overall repo architecture alo
 ```mermaid
 flowchart LR
     Inputs["Metrics, CRM, founder notes, funding signals, GTM targets"] --> Review["Weekly Operating Review"]
+    Inputs --> AIWorkflow["AI Workflow ROI"]
     Inputs --> GTM["AI GTM Command Center"]
     Inputs --> Calls["Founder-Led Sales Call OS"]
     Inputs --> RevOps["RevOps Infrastructure"]
+    AIWorkflow --> Review
+    AIWorkflow --> Decisions["Founder decisions and follow-ups"]
     Review --> Board["Board Pack + Investor Update"]
     GTM --> Calls
     Calls --> Revenue["Founder OS Revenue Engine"]
@@ -126,9 +130,9 @@ See [ROADMAP.md](ROADMAP.md).
 
 ## Built By
 
-Shubham Singh — Founder Office / RevOps operator building reusable systems for early-stage founders.
+Shubham Singh - Founder Office / RevOps operator building reusable systems for early-stage founders.
 
-[GitHub](https://github.com/shubham1502-hue) · [LinkedIn](https://linkedin.com/in/shubham9616)
+[GitHub](https://github.com/shubham1502-hue) | [LinkedIn](https://linkedin.com/in/shubham9616)
 
 ## License
 
