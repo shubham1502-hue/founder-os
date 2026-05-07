@@ -22,6 +22,21 @@ Early-stage startups do not usually break because they lack dashboards. They bre
 - Fork it if you are joining a founder as Founder Office, BizOps, RevOps, GTM ops, or Chief of Staff.
 - Fork it if you want templates and examples for turning messy startup workflows into repeatable systems.
 
+## Use This In Your Company
+
+- Use it as the umbrella operating system for an early-stage company.
+- Start with one module: weekly review, GTM, RevOps, investor updates, outreach, or metrics.
+- Copy only the module you need if you do not want the full system.
+
+## Minimum Edits To Make It Yours
+
+- templates/weekly-operating-review-template.md
+- templates/founder-dm-template.md
+- docs/repo-map.md
+- module links for your stack
+
+The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+
 ## Start Here
 
 | Module | What It Does | Repo |
