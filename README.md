@@ -32,12 +32,16 @@ This repo is designed to be forked into an internal company workflow. Fork it, r
 
 ## Minimum Edits To Make It Yours
 
-- templates/weekly-operating-review-template.md
-- templates/founder-dm-template.md
-- docs/repo-map.md
-- module links for your stack
+Change these first:
 
-The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+| Edit | Where | Why |
+|---|---|---|
+| Pick the first operating module. | `docs/repo-map.md` | Keeps the fork focused on one company problem instead of a broad toolkit. |
+| Rewrite the weekly review template. | `templates/weekly-operating-review-template.md` | Makes the cadence match your founder, team, and KPI rhythm. |
+| Rewrite the outreach template. | `templates/founder-dm-template.md` | Aligns GTM or partnership messaging with your market. |
+| Replace module links with your active repos/tools. | `README.md` and `docs/repo-map.md` | Turns the umbrella repo into your internal operating index. |
+
+You can leave the roadmap, contribution notes, and overall repo architecture alone on the first fork. Start with one module, use it for a week, then add the next module.
 
 ## Start Here
 
