@@ -24,6 +24,8 @@ Early-stage startups do not usually break because they lack dashboards. They bre
 
 ## Use This In Your Company
 
+This repo is designed to be forked into an internal company workflow. Fork it, replace the sample inputs with your company context, and keep only the parts that match your operating cadence. No permission request or sales call is needed before using it; the repo is the handoff. Check the license if you plan to redistribute your version.
+
 - Use it as the umbrella operating system for an early-stage company.
 - Start with one module: weekly review, GTM, RevOps, investor updates, outreach, or metrics.
 - Copy only the module you need if you do not want the full system.
