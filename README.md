@@ -12,7 +12,7 @@ Early-stage startups do not usually break because they lack dashboards. They bre
 
 ## How It Helps
 
-- Gives founders reusable workflows for weekly reviews, GTM research, revenue visibility, investor updates, RevOps, outreach, and KPI tracking.
+- Gives founders reusable workflows for weekly reviews, GTM research, sales call intelligence, revenue visibility, investor updates, RevOps, outreach, and KPI tracking.
 - Connects separate tactical repos into one founder-facing operating system.
 - Helps operators copy the templates, adapt the systems, and build a cleaner execution cadence without starting from scratch.
 
@@ -50,6 +50,7 @@ You can leave the roadmap, contribution notes, and overall repo architecture alo
 | Weekly Operating Review | Turns metrics into priorities, risks, team asks, and investor-safe updates. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
 | Board Pack / Investor Updates | Converts startup KPIs into board-ready narratives and decision lists. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
 | AI GTM Command Center | Scores target accounts and drafts human-approved founder outreach. | [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) |
+| Sales Call Intelligence | Turns founder-led sales call notes into objections, deal risks, rescue actions, and narrative experiments. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) |
 | RevOps Infrastructure | Documents CRM, reporting, handoffs, automations, and CEO visibility. | [revops-infrastructure-playbook](https://github.com/shubham1502-hue/revops-infrastructure-playbook) |
 | Founder Outreach | Tracks founder/operator outreach and follow-up reminders. | [founder-outreach-tracker](https://github.com/shubham1502-hue/founder-outreach-tracker) |
 | Startup Metrics | Defines metrics, formulas, SQL logic, benchmarks, and operator interpretation. | [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) |
@@ -79,10 +80,14 @@ You can leave the roadmap, contribution notes, and overall repo architecture alo
 flowchart LR
     Inputs["Metrics, CRM, founder notes, funding signals, GTM targets"] --> Review["Weekly Operating Review"]
     Inputs --> GTM["AI GTM Command Center"]
+    Inputs --> Calls["Founder-Led Sales Call OS"]
     Inputs --> RevOps["RevOps Infrastructure"]
     Review --> Board["Board Pack + Investor Update"]
+    GTM --> Calls
+    Calls --> Revenue["Founder OS Revenue Engine"]
     GTM --> Outreach["Founder Outreach Tracker"]
     RevOps --> Metrics["Startup Metrics + KPI Dashboards"]
+    Revenue --> Decisions["Founder decisions and follow-ups"]
     Board --> Decisions["Founder decisions and follow-ups"]
     Outreach --> Decisions
     Metrics --> Decisions
