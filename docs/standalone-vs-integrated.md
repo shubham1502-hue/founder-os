@@ -11,6 +11,7 @@ Use standalone mode when you have one clear operating problem:
 - Revenue leakage
 - Customer onboarding
 - Retention and expansion
+- Product feedback and roadmap decisions
 - Weekly review
 - Board or investor update
 - AI workflow ROI
@@ -44,7 +45,9 @@ Start with one module. Add adjacent repos only when there is a useful handoff:
 - Sales call risks into revenue diagnosis
 - Close-won accounts into onboarding
 - Activated customers into retention and expansion
+- Sales objections, onboarding blockers, churn drivers, expansion asks, support issues, and product metrics into roadmap decisions
 - Retention risks, expansion opportunities, and churn drivers into weekly review
+- Product roadmap decisions and product risks into weekly review
 - Weekly operating signal into board narrative
 
 The goal is modularity, not complexity.

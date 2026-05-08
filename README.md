@@ -107,7 +107,7 @@ Customize these before using the repo for a real company:
 
 ## Where this fits in the Founder OS
 
-This is the umbrella repo. Use it to navigate the Founder OS library, then fork the specific module that solves the current operating problem: AI leverage, GTM research, sales-call learning, revenue diagnosis, customer onboarding, retention and expansion, weekly review, board reporting, RevOps infrastructure, metrics definitions, or founder outreach.
+This is the umbrella repo. Use it to navigate the Founder OS library, then fork the specific module that solves the current operating problem: AI leverage, GTM research, sales-call learning, revenue diagnosis, customer onboarding, retention and expansion, product feedback and roadmap decisions, weekly review, board reporting, RevOps infrastructure, metrics definitions, or founder outreach.
 
 The modules are standalone. You do not need the full suite to get value. Fork one repo, solve one operating problem, and add adjacent modules later only if the operating handoff is useful.
 
@@ -124,6 +124,7 @@ The modules are standalone. You do not need the full suite to get value. Fork on
 | Revenue leakage | Where is the funnel leaking and what should we fix this week? | [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) | Funnel or CRM export | Leakage diagnosis, bottleneck view, weekly GTM actions |
 | Post-sale onboarding | Which closed-won customers are stuck before activation? | [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) | Customer onboarding tracker | Health scorecard, founder attention queue, onboarding memo |
 | Retention and expansion | Which activated customers are at risk, expansion-ready, or referenceable? | [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) | Customer health tracker | Retention memo, renewal risk queue, expansion opportunity queue, customer proof list |
+| Product feedback and roadmap | Which customer signals deserve roadmap attention, validation, non-product fixes, deferral, or rejection? | [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) | Product feedback tracker | Founder roadmap memo, roadmap decision queue, product gap summary, non-product fix queue |
 | Weekly operating review | What changed this week and what needs leadership action? | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) | Weekly metrics and company context | CEO-ready weekly review, risks, team asks, next-week plan |
 | Board and investor narrative | What should investors or the board understand? | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) | Startup metrics and company context | Board pack, investor update, risks, decision list |
 | Relationship follow-up | Which founder, operator, investor, or partner follow-ups are slipping? | [founder-outreach-tracker](https://github.com/shubham1502-hue/founder-outreach-tracker) | Outreach tracker | Follow-up cadence, reminder system, relationship pipeline |
@@ -136,10 +137,11 @@ The modules are standalone. You do not need the full suite to get value. Fork on
 | Revenue diagnosis stack | You need to understand why pipeline is not converting. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) + [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) + [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) |
 | Post-sale activation stack | You are closing customers but activation is messy. | [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) + [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) + [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
 | Retention and expansion stack | You need to protect renewals, find expansion, and identify customer proof. | [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) + [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) + [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
+| Product roadmap stack | You need customer signals to become build, validate, non-product fix, defer, or reject decisions. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) + [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) + [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) + [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) |
 | AI leverage stack | You want to use AI without random experimentation. | [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) + [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
 | RevOps build stack | You need CRM, handoffs, reporting, and revenue operating discipline. | [revops-infrastructure-playbook](https://github.com/shubham1502-hue/revops-infrastructure-playbook) + [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) + [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) |
 | Board and investor stack | You need internal metrics to become investor-ready narrative. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) + [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) + [edtech-saas-financial-model](https://github.com/shubham1502-hue/edtech-saas-financial-model) |
-| Full Founder OS stack | You want the complete operating lifecycle. | [founder-os](https://github.com/shubham1502-hue/founder-os) + [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) + [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) + [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) + [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) + [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) + [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) + [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
+| Full Founder OS stack | You want the complete operating lifecycle. | [founder-os](https://github.com/shubham1502-hue/founder-os) + [ai-gtm-command-center](https://github.com/shubham1502-hue/ai-gtm-command-center) + [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) + [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) + [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) + [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) + [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) + [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) + [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
 
 ## Lifecycle docs
 
@@ -151,7 +153,6 @@ The modules are standalone. You do not need the full suite to get value. Fork on
 
 | Missing module | Founder problem it would solve | Priority |
 | --- | --- | --- |
-| Product feedback and roadmap prioritization OS | Turn customer feedback, sales objections, support patterns, and founder judgment into roadmap tradeoffs. | High |
 | Founder hiring and talent pipeline OS | Help founders track role definition, candidate pipeline, interview signals, and hiring priorities. | Medium |
 | Fundraising readiness scorecard | Assess whether metrics, narrative, pipeline, and operating proof are ready for investor outreach. | Medium |
 | Customer support triage OS | Prioritize support issues by customer value, severity, activation impact, and churn risk. | Medium |
@@ -248,6 +249,7 @@ You can leave the roadmap, contribution notes, and overall repo architecture alo
 | Sales Call Intelligence | Turns founder-led sales call notes into objections, deal risks, rescue actions, and narrative experiments. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) |
 | Customer Onboarding | Tracks onboarding health, activation risk, SLA issues, owner gaps, and founder attention priorities after close-won. | [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) |
 | Retention and Expansion | Tracks post-activation customer health, renewal risk, expansion readiness, churn drivers, proof opportunities, and founder attention priorities. | [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) |
+| Product Feedback and Roadmap | Turns sales objections, onboarding blockers, retention risks, expansion asks, support issues, and founder judgment into roadmap decisions. | [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) |
 | RevOps Infrastructure | Documents CRM, reporting, handoffs, automations, and CEO visibility. | [revops-infrastructure-playbook](https://github.com/shubham1502-hue/revops-infrastructure-playbook) |
 | Founder Outreach | Tracks founder/operator outreach and follow-up reminders. | [founder-outreach-tracker](https://github.com/shubham1502-hue/founder-outreach-tracker) |
 | Startup Metrics | Defines metrics, formulas, SQL logic, benchmarks, and operator interpretation. | [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) |
@@ -288,12 +290,19 @@ flowchart LR
   Calls --> Onboarding["Founder Customer Onboarding OS"]
   Revenue --> Onboarding
   Onboarding --> Retention["Founder Retention Expansion OS"]
+  Calls --> Product["Founder Product Feedback Roadmap OS"]
+  Onboarding --> Product
+  Retention --> Product
   Retention --> Review
   Retention --> Board
+  Product --> Review
+  Product --> Board
   Onboarding --> Decisions["Founder decisions and follow-ups"]
   Retention --> Decisions
+  Product --> Decisions
   GTM --> Outreach["Founder Outreach Tracker"]
   RevOps --> Metrics["Startup Metrics + KPI Dashboards"]
+  Metrics --> Product
   Revenue --> Decisions["Founder decisions and follow-ups"]
   Board --> Decisions["Founder decisions and follow-ups"]
   Outreach --> Decisions

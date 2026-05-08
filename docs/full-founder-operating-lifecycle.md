@@ -13,8 +13,9 @@ Founder OS can be used as one repo at a time or as a connected operating lifecyc
 7. Move closed-won customers into onboarding.
 8. Track activation.
 9. Monitor retention, renewals, expansion, and customer proof after activation.
-10. Run weekly operating reviews.
-11. Convert operating signal into board or investor narrative.
+10. Turn customer signals into roadmap decisions.
+11. Run weekly operating reviews.
+12. Convert operating signal into board or investor narrative.
 
 ## Repo flow
 
@@ -29,8 +30,9 @@ Founder OS can be used as one repo at a time or as a connected operating lifecyc
 | 7 | Diagnose funnel leakage and choose weekly revenue fixes. | [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) |
 | 8 | Track closed-won customers through onboarding and activation. | [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) |
 | 9 | Track activated customers through retention risk, renewal risk, expansion readiness, churn drivers, and customer proof. | [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) |
-| 10 | Run the weekly operating review and assign leadership actions. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
-| 11 | Convert operating signal into investor or board narrative. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
+| 10 | Turn sales objections, onboarding blockers, support issues, churn drivers, expansion asks, and founder judgment into roadmap decisions. | [founder-product-feedback-roadmap-os](https://github.com/shubham1502-hue/founder-product-feedback-roadmap-os) |
+| 11 | Run the weekly operating review and assign leadership actions. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
+| 12 | Convert operating signal into investor or board narrative. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
 
 ## Practical handoff
 
@@ -41,7 +43,10 @@ Use outputs as handoff artifacts:
 - Deal risks become revenue leakage signals.
 - Close-won accounts become onboarding tracker rows.
 - Activated accounts become retention and expansion tracker rows.
+- Sales objections, onboarding blockers, support issues, churn drivers, expansion asks, and metrics become product feedback tracker rows.
+- Product feedback outputs become build, validate, non-product fix, defer, or reject decisions.
 - Retention risks, expansion opportunities, and churn drivers become weekly operating review topics.
+- Product roadmap decisions and product risks become weekly operating review topics.
 - Weekly operating signal becomes board or investor narrative.
 
 You can stop at any step. The lifecycle is a map, not a requirement.
