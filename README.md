@@ -18,6 +18,7 @@ Early-stage founders usually do not fail because they lack dashboards. They lose
 ## What a founder gets in 10 minutes
 
 - a repo map for choosing the right module
+- Founder OS case study for seeing the lifecycle in one synthetic example
 - weekly operating review template
 - founder DM template
 - sample operating cadence
@@ -51,6 +52,7 @@ After:
 ## Quick start
 
 - Fork the repo on GitHub.
+- Read `docs/founder-os-case-study.md` for a synthetic end-to-end example.
 - Open `docs/repo-map.md` first.
 - Copy `templates/weekly-operating-review-template.md` into your company workspace.
 - Use `examples/sample-operating-cadence.md` to set the first weekly rhythm.
@@ -83,6 +85,7 @@ The default sample data and examples are synthetic, anonymized, or template-only
 ## Output files
 
 - `docs/repo-map.md`: umbrella map of the portfolio
+- `docs/founder-os-case-study.md`: synthetic example of connecting modules into one operating cadence
 - `templates/weekly-operating-review-template.md`: weekly review structure
 - `templates/founder-dm-template.md`: founder outreach starter
 - `examples/sample-operating-cadence.md`: example rhythm to adapt
