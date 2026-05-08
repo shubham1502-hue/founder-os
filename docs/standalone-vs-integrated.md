@@ -10,6 +10,7 @@ Use standalone mode when you have one clear operating problem:
 - Sales call learning
 - Revenue leakage
 - Customer onboarding
+- Retention and expansion
 - Weekly review
 - Board or investor update
 - AI workflow ROI
@@ -42,7 +43,8 @@ Start with one module. Add adjacent repos only when there is a useful handoff:
 - GTM research into sales call notes
 - Sales call risks into revenue diagnosis
 - Close-won accounts into onboarding
-- Onboarding risks into weekly review
+- Activated customers into retention and expansion
+- Retention risks, expansion opportunities, and churn drivers into weekly review
 - Weekly operating signal into board narrative
 
 The goal is modularity, not complexity.

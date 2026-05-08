@@ -12,8 +12,9 @@ Founder OS can be used as one repo at a time or as a connected operating lifecyc
 6. Diagnose revenue leakage.
 7. Move closed-won customers into onboarding.
 8. Track activation.
-9. Run weekly operating reviews.
-10. Convert operating signal into board or investor narrative.
+9. Monitor retention, renewals, expansion, and customer proof after activation.
+10. Run weekly operating reviews.
+11. Convert operating signal into board or investor narrative.
 
 ## Repo flow
 
@@ -27,8 +28,9 @@ Founder OS can be used as one repo at a time or as a connected operating lifecyc
 | 6 | Turn calls into objections, deal rescue actions, and weekly learning. | [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) |
 | 7 | Diagnose funnel leakage and choose weekly revenue fixes. | [founder-os-revenue-engine](https://github.com/shubham1502-hue/founder-os-revenue-engine) |
 | 8 | Track closed-won customers through onboarding and activation. | [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) |
-| 9 | Run the weekly operating review and assign leadership actions. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
-| 10 | Convert operating signal into investor or board narrative. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
+| 9 | Track activated customers through retention risk, renewal risk, expansion readiness, churn drivers, and customer proof. | [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) |
+| 10 | Run the weekly operating review and assign leadership actions. | [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) |
+| 11 | Convert operating signal into investor or board narrative. | [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) |
 
 ## Practical handoff
 
@@ -38,7 +40,8 @@ Use outputs as handoff artifacts:
 - Sales call notes become objection banks and deal rescue queues.
 - Deal risks become revenue leakage signals.
 - Close-won accounts become onboarding tracker rows.
-- Onboarding risks become weekly operating review topics.
+- Activated accounts become retention and expansion tracker rows.
+- Retention risks, expansion opportunities, and churn drivers become weekly operating review topics.
 - Weekly operating signal becomes board or investor narrative.
 
 You can stop at any step. The lifecycle is a map, not a requirement.
