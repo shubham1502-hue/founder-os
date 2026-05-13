@@ -4,6 +4,36 @@ A modular operating system library for early-stage founders who need reusable ca
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Output preview
+
+Open these first to understand the portfolio:
+
+- `docs/founder-os-case-study.md`: synthetic end-to-end operating loop from messy GTM to weekly cadence
+- `docs/repo-map.md`: map of modules and operating handoffs
+- `templates/weekly-operating-review-template.md`: copyable weekly founder review structure
+- `templates/founder-dm-template.md`: founder outreach starter
+- `examples/sample-operating-cadence.md`: sample cadence for adapting the system
+
+## 7-day Founder's Office sprint
+
+- Day 1: Pick one operating problem and choose the matching module
+- Day 2: Read the case study and map the current workflow
+- Day 3: Copy the weekly review template and define owners
+- Day 4: Connect one GTM, revenue, customer, product, hiring, or investor repo
+- Day 5: Turn the repo output into a founder-ready decision artifact
+- Day 6: Assign next actions and update cadence
+- Day 7: Write a short operating note on what changed and what to inspect next
+
+## Founder's Office signal
+
+This repo demonstrates:
+
+- structuring a wide operating system without forcing every module at once
+- connecting GTM, customer, product, hiring, AI, and investor workflows
+- designing reusable founder cadences
+- turning scattered repo outputs into a weekly operating loop
+- communicating what to use standalone versus integrated
+
 ## The founder problem
 
 Early-stage founders usually do not fail because they lack dashboards. They lose execution quality when priorities, investor updates, GTM follow-ups, hiring decisions, and weekly reviews live in different tools with no operating rhythm.
