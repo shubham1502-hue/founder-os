@@ -4,6 +4,23 @@ A modular operating system library for early-stage founders who need reusable ca
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Non-technical founder path
+
+If you are a non-technical founder, do not start with the full repo ecosystem.
+
+Start here:
+[Founder OS Adoption Kit](https://github.com/shubham1502-hue/founder-os-adoption-kit)
+
+Use it to pick one current operating problem, copy the matching template, fill sample data, and generate the first founder-ready output without setting up code, n8n, SQL, or GitHub workflows.
+
+Recommended first path:
+
+1. Revenue Rescue Kit
+2. Weekly Review Kit
+3. Investor Update Kit
+
+Then add advanced modules only when the manual workflow is useful.
+
 ## Output preview
 
 Open these first to understand the portfolio:
@@ -81,6 +98,7 @@ After:
 
 ## Quick start
 
+- If you are a non-technical founder, open [founder-os-adoption-kit](https://github.com/shubham1502-hue/founder-os-adoption-kit) first and use one no-code kit.
 - Fork the repo on GitHub.
 - Read `docs/founder-os-case-study.md` for a synthetic end-to-end example.
 - Open `docs/repo-map.md` first.
