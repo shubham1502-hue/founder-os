@@ -162,6 +162,14 @@ This is the umbrella repo. Use it to navigate the Founder OS library, then fork 
 
 The modules are standalone. You do not need the full suite to get value. Fork one repo, solve one operating problem, and add adjacent modules later only if the operating handoff is useful.
 
+## Optional external distribution layer
+
+Founder OS helps founders operate better. [Founder Visibility OS](https://github.com/shubham1502-hue/founder-visibility-os) helps founders explain operating insight to the market.
+
+Use Founder Visibility OS when operating lessons from RevOps, GTM, sales calls, onboarding, retention, product roadmap, hiring, or investor updates should become founder-facing visibility, trust, and business conversations.
+
+This is optional. It is not required to use the Founder OS lifecycle.
+
 ## Full founder operating lifecycle
 
 | Lifecycle stage | Founder question | Use this repo | Main input | Main output |
